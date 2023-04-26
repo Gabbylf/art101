@@ -1,21 +1,23 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+//Models of a Car
+//Assigning Values using javascript to show a car we wish we could own!
+//Gabriella Frint <gfrint@ucsc.edu>
+//April 2023
 
-// Constants
+//basics
+carMake = "Toyota";
+carModel = "Sedan";
+carColor = "teal blue";
+carYear = 1995;
 
-// Functions
+///Defining Age
+carAge = 2023 - carYear
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+//Property?
+var ownIt = false;
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+//Output
+document.writeln("Make: " + carMake + "<b>");
+document.writeln("Model: " + carModel + "<b>");
+document.writeln("Color: " + carColor + "<b>");
+document.writeln("Year: " + carYear + "<b>");
+document.writeln("Age: " + carAge + " years<b>");
