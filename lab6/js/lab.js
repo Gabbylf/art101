@@ -3,6 +3,8 @@
 //Gabriella Frint <gfrint@ucsc.edu>
 //May 2023
 
+function main(){
+  console.log("Main functin started.");
 //basics
   carMake = "Toyota";
   carModel = "Sedan";
@@ -32,3 +34,4 @@
   document.writeln("The kinds of transportaton I use to get around are...", myTransport, "</b>");
   document.writeln("My Main Ride: <pre>",
     JSON.stringify(myMainRide, null, '\t'), "</pre>");
+}
