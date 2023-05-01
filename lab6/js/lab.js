@@ -1,21 +1,34 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+//Array and Objects
+//Assigning Array and Objects to a car we did from last assignment!
+//Gabriella Frint <gfrint@ucsc.edu>
+//May 2023
 
-// Constants
+//basics
+  carMake = "Toyota";
+  carModel = "Sedan";
+  carColor = "teal blue";
+  carYear = 1995;
 
-// Functions
+///Defining Age
+  carAge = 2023 - carYear
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+//the myTransport
+  myTransport = ["walking", "bus", "Toyota Sedan"];
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+//the var myMainTransport
+  var myMainRide = {
+    carMake: "Toyota",
+    carModel: "Sedan",
+    carColor: "Teal blue",
+    carYear: 1995,
+    carAge: function() {
+        return 2023 - this.year;
+    }
+  }
 
-// let's get this party started
-main();
+  myMainRide.carAge()
+
+//writeL!n not writeIn!
+  document.writeln("The kinds of transportaton I use to get around are...", myTransport, "</b>");
+  document.writeln("My Main Ride: <pre>",
+    JSON.stringify(myMainRide, null, '\t'), "</pre>");
