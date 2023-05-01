@@ -3,12 +3,12 @@
 //Gabriella Frint <gfrint@ucsc.edu>
 //May 2023
 
-function main(){
-  console.log("Main functin started.");
-  //basics
+//basics
+function main() {
+  console.log("Main Function started.");
   make = "Toyota";
   model = "Sedan";
-  clor = "teal blue";
+  color = "teal blue";
   year = 1995;
 
   ///Defining Age
@@ -35,3 +35,4 @@ function main(){
   document.writeln("My Main Ride: <pre>",
     JSON.stringify(myMainRide, null, '\t'), "</pre>");
 }
+main();

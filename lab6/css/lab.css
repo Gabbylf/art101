@@ -16,9 +16,11 @@ img{
 }
 .minor-section {
     padding: 20px;
-    margin-bottom: 20px;
-    border: solid 1px #f0b6b6;
+    margin-bottom: 40px;
+    border: solid 50px #f0b6b6;
     background-color: #eef593;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
   
   }
 body{
