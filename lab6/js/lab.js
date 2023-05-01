@@ -5,32 +5,32 @@
 
 function main(){
   console.log("Main functin started.");
-//basics
-  carMake = "Toyota";
-  carModel = "Sedan";
-  carColor = "teal blue";
-  carYear = 1995;
+  //basics
+  make = "Toyota";
+  model = "Sedan";
+  clor = "teal blue";
+  year = 1995;
 
-///Defining Age
+  ///Defining Age
   carAge = 2023 - carYear
 
-//the myTransport
+  //the myTransport
   myTransport = ["walking", "bus", "Toyota Sedan"];
 
-//the var myMainTransport
+  //the var myMainTransport
   var myMainRide = {
-    carMake: "Toyota",
-    carModel: "Sedan",
-    carColor: "Teal blue",
-    carYear: 1995,
-    carAge: function() {
+    make: "Toyota",
+    model: "Sedan",
+    color: "Teal blue",
+    year: 1995,
+    age: function() {
         return 2023 - this.year;
     }
   }
 
-  myMainRide.carAge()
+  myMainRide.age()
 
-//writeL!n not writeIn!
+  //writeL!n not writeIn!
   document.writeln("The kinds of transportaton I use to get around are...", myTransport, "</b>");
   document.writeln("My Main Ride: <pre>",
     JSON.stringify(myMainRide, null, '\t'), "</pre>");
