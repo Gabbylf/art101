@@ -35,4 +35,6 @@ function main() {
   document.writeln("My Main Ride: <pre>",
     JSON.stringify(myMainRide, null, '\t'), "</pre>");
 }
+
+
 main();
