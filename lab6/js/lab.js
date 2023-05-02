@@ -12,7 +12,7 @@ function main() {
   year = 1995;
 
   ///Defining Age
-  carAge = 2023 - carYear
+  age = 2023 - year;
 
   //the myTransport
   myTransport = ["walking", "bus", "Toyota Sedan"];
