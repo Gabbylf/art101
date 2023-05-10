@@ -31,7 +31,7 @@ function main() {
   myMainRide.age()
 
   //writeL!n not writeIn!
-  document.writeln("The kinds of transportaton I use to get around are...", myTransport, "</b>");
+  document.writeln("The kinds of transportaton I use to get around are...", myTransport, "</br>");
   document.writeln("My Main Ride: <pre>",
     JSON.stringify(myMainRide, null, '\t'), "</pre>");
 }

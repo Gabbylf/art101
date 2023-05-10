@@ -1,19 +1,19 @@
 h1{
-    color:rgb(0, 0, 0);
+    color:rgb(61, 55, 60);
     font-size: 300%;
     font-family: cursive;
-    background-color: rgb(248, 246, 149);
-    border: solid 5px rgb(240, 190, 125);
+    background-color: rgb(240, 150, 169);
+    border: solid 5px rgb(57, 182, 161);
   }
   .minor-section {
       padding: 20px;
       margin-bottom: 40px;
-      border: solid 50px #058872;
-      background-color: #095369;
+      border: solid 50px #f0859c;
+      background-color: #f7e095;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-size: large;
     
     }
   body{
-    background-color: #fa9ca8;
+    background-color: #f2f7b3;
   }
