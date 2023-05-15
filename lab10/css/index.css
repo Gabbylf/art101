@@ -1,0 +1,19 @@
+h1{
+    color:rgb(61, 55, 60);
+    font-size: 300%;
+    font-family: cursive;
+    background-color: rgb(2, 2, 2);
+    border: solid 5px rgb(192, 62, 153);
+  }
+  .minor-section {
+      padding: 20px;
+      margin-bottom: 40px;
+      border: solid 50px #5a138a;
+      background-color: #a352ee;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+    
+    }
+  body{
+    background-color: #000000;
+  }
