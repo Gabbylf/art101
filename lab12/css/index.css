@@ -1,0 +1,40 @@
+#challenge{
+    background-color: rgb(114, 79, 241);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid 10px #9055fc;
+}
+#problem{
+    background-color:rgb(129, 98, 241);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid 10px #9055fc;
+}
+#reflection{
+    background-color: rgb(149, 123, 243);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid 10px #9055fc;
+}
+#results{
+    background-color: rgb(168, 148, 241);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid 10px #9055fc;
+}
+
+body{
+    background-color: rgb(192, 178, 243);
+}
+
+html{
+    background-color: rgb(212, 203, 245);
+}
+
+h1{
+    color:rgb(230, 225, 247);
+    font-size: 300%;
+    font-family: cursive;
+    background-color: rgb(107, 63, 252);
+    border: solid 5px rgb(175, 103, 243);
+}
