@@ -1,9 +1,50 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+div#output {
+  border: solid, 1px, rgb(245, 127, 235);
+  padding: 20px;
+  background-color: rgb(144, 160, 253);
+  column-width: 200px;
+}
+
+#challenge{
+  background-color: rgb(166, 131, 247);
+  padding: 5px;
+  margin-bottom: 10px;
+  border: solid 10px #f391bf;
+}
+#problem{
+  background-color:rgb(243, 182, 210);
+  padding: 5px;
+  margin-bottom: 10px;
+  border: solid 10px #464eb9;
+}
+#reflection{
+  background-color: rgb(101, 103, 236);
+  padding: 5px;
+  margin-bottom: 10px;
+  border: solid 10px #f1adcd;
+}
+#results{
+  background-color: rgb(248, 134, 220);
+  padding: 5px;
+  margin-bottom: 10px;
+  border: solid 10px #4c23be;
+}
+
+body{
+  background-color: rgb(91, 56, 173);
+}
+
+html{
+  background-color: rgb(233, 137, 196);
+}
+
+h1{
+  color:rgb(231, 149, 220);
+  font-size: 300%;
+  font-family: cursive;
+  background-color: rgb(84, 114, 197);
+  border: solid 5px rgb(236, 125, 153);
+}

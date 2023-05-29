@@ -1,0 +1,54 @@
+div#output {
+    border: solid, 1px, rgb(138, 240, 147);
+    padding: 20px;
+    background-color: rgb(252, 231, 137);
+    column-width: 200px;
+}
+
+#challenge{
+    background-color: rgb(65, 193, 216);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid 10px #36bd29;
+}
+#problem{
+    background-color:rgb(248, 212, 95);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid 10px #2465dd;
+}
+#reflection{
+    background-color: rgb(179, 240, 155);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid 10px #f8ac1f;
+}
+#results{
+    background-color: rgb(39, 138, 231);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid 10px #acf74b;
+}
+
+#debugging{
+    background-color: rgb(248, 178, 48);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid 10px #2b4de2;
+}
+
+body{
+    background-color: rgb(45, 184, 226);
+}
+
+html{
+    background-color: rgb(245, 210, 56);
+}
+
+h1{
+    color:rgb(230, 225, 247);
+    font-size: 300%;
+    font-family: cursive;
+    background-color: rgb(111, 232, 253);
+    border: solid 5px rgb(14, 73, 161);
+}
