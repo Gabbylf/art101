@@ -1,55 +1,55 @@
 div#output {
-    border: solid, 1px, rgb(172, 180, 173);
+    border: solid, 1px, rgb(240, 148, 179);
     padding: 20px;
-    background-color: rgb(104, 103, 98);
+    background-color: rgb(235, 115, 155);
     column-width: 200px;
 }
 
 #challenge{
-    background-color: rgb(218, 222, 223);
+    background-color: rgb(230, 84, 132);
     padding: 5px;
     margin-bottom: 10px;
-    border: solid 10px #2d2e2d;
+    border: solid 10px #f8d1d9;
 }
 #problem{
-    background-color:rgb(107, 107, 105);
+    background-color:rgb(247, 45, 112);
     padding: 5px;
     margin-bottom: 10px;
-    border: solid 10px #434344;
+    border: solid 10px #f5849c;
 }
 #reflection{
-    background-color: rgb(192, 196, 190);
+    background-color: rgb(247, 66, 126);
     padding: 5px;
     margin-bottom: 10px;
-    border: solid 10px #353433;
+    border: solid 10px #ffe2f0;
 }
 #results{
-    background-color: rgb(231, 232, 233);
+    background-color: rgb(187, 79, 120);
     padding: 5px;
     margin-bottom: 10px;
-    border: solid 10px #dbddd9;
+    border: solid 10px #c57791;
 }
 
 body{
-    background-color: rgb(94, 100, 100);
+    background-color: rgb(224, 24, 84);
 }
 
 html{
-    background-color: rgb(119, 118, 114);
+    background-color: rgb(218, 102, 137);
 }
 
 h1{
-    color:rgb(45, 45, 48);
+    color:rgb(224, 224, 224);
     font-size: 300%;
     font-family: cursive;
-    background-color: rgb(161, 167, 168);
-    border: solid 5px rgb(219, 220, 223);
+    background-color: rgb(216, 148, 165);
+    border: solid 5px rgb(223, 70, 129);
 }
 
 .dot {
     height: 25px;
     width: 25px;
-    background-color: #bbb;
+    background-color: #da5a7a;
     border-radius: 50%;
     display: inline-block;
   }
